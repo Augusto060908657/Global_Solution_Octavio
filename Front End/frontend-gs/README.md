@@ -1,11 +1,11 @@
-# 🏙️ CitizenTech — Portal Inteligente de Atendimento e Orientação ao Cidadão
+# 🏙️ CitizenTech Portal Inteligente de Atendimento e Orientação ao Cidadão
 
 > Global Solution 2026/2 · FIAP · Front-End em Sistemas de IA
 > **Integrante:** Octavio Augusto Ramalho Brandão Pires **RM:** 555696 · **Deploy:** Docker Compose (ver seção 7)
 
 O cidadão descreve um problema da cidade (poste apagado, entulho, buraco, saúde, segurança…). Uma **IA local (Ollama + Qwen2.5)**, chamada **somente pelo back-end FastAPI**, devolve um **JSON estruturado** (categoria, urgência, órgão responsável, passos práticos, prazo). A interface Streamlit transforma isso em cards claros e acessíveis, e **o cidadão confere o resultado antes de registrar** (human-in-the-loop).
 
-**ODS:** 🏙️ 11 – Cidades e Comunidades Sustentáveis · ⚖️ 16 – Paz, Justiça e Instituições Eficazes
+**ODS:** 🏙️ 11 – Cidades e Comunidades Sustentáveis · ⚖️ 16 - Paz, Justiça e Instituições Eficazes
 **Video:** [GS Front End Video](https://youtu.be/EqNZ4TiMjdY)
 ---
 
