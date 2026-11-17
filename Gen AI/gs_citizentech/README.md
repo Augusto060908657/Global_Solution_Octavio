@@ -1,4 +1,4 @@
-# CitizenTech "Cidade Para Todos" — Assistente Conversacional RAG
+# CitizenTech "Cidade Para Todos" Assistente Conversacional RAG
 
 **Global Solution FIAP 2026.2 · Generative AI & Advanced Nets · Turma 2TIAPF**
 
