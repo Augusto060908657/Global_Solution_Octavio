@@ -137,9 +137,9 @@ Camadas **nomeadas exatamente como pedido no enunciado**. Arquivos extras: `prov
 | 1 | Poste apagado há 2 semanas na Rua das Acácias, rua muito escura à noite. | iluminacao_publica / media | iluminacao_publica / media (conf. 90%) | Nenhum — resultado conforme o esperado. |
 | 2 | Deixaram entulho de obra na calçada da escola e as crianças andam na rua. | limpeza_urbana_entulho / alta | limpeza_urbana_entulho / alta (conf. 85%) | Nenhum — resultado conforme o esperado. |
 | 3 | Estou sentindo um cheiro forte de gás no corredor do prédio. | qualquer categoria / critica (regra de segurança) | **saude / baixa (conf. 70%)** ❌ | A regra de segurança só reconhecia a frase exata "cheiro de gás", e o relato dizia "cheiro **forte** de gás". O padrão (regex) passou a aceitar palavras entre "cheiro" e "gás" (e variações de "vazamento" e "fio caído"). Foram criados testes automatizados com 4 variações de frase, incluindo esta exata, que agora resultam em urgência crítica. A categoria "saúde" continua sendo uma limitação do modelo, mitigada pela correção humana. |
-| 4 | Buraco enorme na avenida, os carros desviam e já houve acidente. | buraco_pavimentacao / alta | buraco_pavimentacao / alta (conf. 95%) | Nenhum — resultado conforme o esperado. |
-| 5 | A UBS do meu bairro está sem médico há três dias e minha mãe precisa de consulta. | saude / media ou alta | saude / media (conf. 75%) | Nenhum — resultado conforme o esperado. |
-| 6 | Qual é a melhor pizzaria da cidade para o fim de semana? | outros / baixa, confiança baixa | outros / baixa (conf. 10%) | Nenhum — a IA reconheceu que não é serviço público e marcou confiança baixa. |
+| 4 | Buraco enorme na avenida, os carros desviam e já houve acidente. | buraco_pavimentacao / alta | buraco_pavimentacao / alta (conf. 95%) | Nenhum - resultado conforme o esperado. |
+| 5 | A UBS do meu bairro está sem médico há três dias e minha mãe precisa de consulta. | saude / media ou alta | saude / media (conf. 75%) | Nenhum - resultado conforme o esperado. |
+| 6 | Qual é a melhor pizzaria da cidade para o fim de semana? | outros / baixa, confiança baixa | outros / baixa (conf. 10%) | Nenhum - a IA reconheceu que não é serviço público e marcou confiança baixa. |
 
 **Resultado:** 5 de 6 casos corretos de primeira; o caso 3 revelou uma falha real de segurança, que foi corrigida e passou a ter teste automatizado.
 
