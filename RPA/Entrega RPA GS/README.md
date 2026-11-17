@@ -6,7 +6,7 @@
 
 ## 1. Problema
 
-Prefeituras recebem diariamente chamados de cidadãos (buracos, semáforos quebrados, rampas de acessibilidade obstruídas, alagamentos). A triagem manual é lenta, os dados chegam sujos (datas inválidas, sem coordenadas, textos vazios) e os casos que colocam vidas em risco — sobretudo de pessoas com deficiência, idosos e crianças — ficam misturados aos casos triviais.
+Prefeituras recebem diariamente chamados de cidadãos (buracos, semáforos quebrados, rampas de acessibilidade obstruídas, alagamentos). A triagem manual é lenta, os dados chegam sujos (datas inválidas, sem coordenadas, textos vazios) e os casos que colocam vidas em risco, sobretudo de pessoas com deficiência, idosos e crianças, ficam misturados aos casos triviais.
 
 O robô automatiza, de ponta a ponta: **coleta do clima → leitura e validação dos chamados → priorização por regras inteligentes → alerta de emergência acessível e resumo de zeladoria por e-mail → relatório de execução**, sem nunca parar diante de erro de entrada ou de API fora do ar.
 
@@ -63,9 +63,9 @@ Agendar `python rpa_pipeline.py` — Linux/macOS: `0 7 * * * cd /caminho && pyth
 
 | Tema Utilizado | Onde foi aplicado no código | Qual problema resolve no Cidade Para Todos |
 |---|---|---|
-| **Tema 1 — Consumo de API pública (Open-Meteo)** | `rpa_pipeline.py`: `coletar_clima()`, `_interpretar_open_meteo()`, `CircuitBreaker`, `ha_alerta_climatico()`; o resultado alimenta `pontuar_chamado()` | Traz contexto ambiental real em tempo de execução: chuva forte e rajadas elevam a prioridade de alagamentos, buracos, quedas de árvore e iluminação, e disparam alerta climático para gestores. |
-| **Tema 2 — Processamento, sanitização e validação com Pandas + SQL/CSV** | `carregar_chamados()`, `validar_chamados()`, `anonimizar_texto()`, `priorizar()`, `persistir()` (SQLite), `gravar_relatorios()` | Transforma chamados sujos em dados confiáveis: isola registros corrompidos em quarentena, mascara dados pessoais (LGPD), classifica por criticidade explicável e persiste sem duplicar (idempotência). |
-| **Tema 3 — Automação de notificações e relatórios (SMTP/Webhook simulado)** | `montar_alerta_emergencia()`, `montar_resumo_zeladoria()`, `enviar_email()`, `gravar_relatorios()` | Entrega a informação certa à pessoa certa sem ação manual: alerta de emergência em HTML acessível (alto contraste, tabela semântica, criticidade em texto) para a equipe de campo e resumo operacional para a zeladoria. |
+| **Tema 1 - Consumo de API pública (Open-Meteo)** | `rpa_pipeline.py`: `coletar_clima()`, `_interpretar_open_meteo()`, `CircuitBreaker`, `ha_alerta_climatico()`; o resultado alimenta `pontuar_chamado()` | Traz contexto ambiental real em tempo de execução: chuva forte e rajadas elevam a prioridade de alagamentos, buracos, quedas de árvore e iluminação, e disparam alerta climático para gestores. |
+| **Tema 2 - Processamento, sanitização e validação com Pandas + SQL/CSV** | `carregar_chamados()`, `validar_chamados()`, `anonimizar_texto()`, `priorizar()`, `persistir()` (SQLite), `gravar_relatorios()` | Transforma chamados sujos em dados confiáveis: isola registros corrompidos em quarentena, mascara dados pessoais (LGPD), classifica por criticidade explicável e persiste sem duplicar (idempotência). |
+| **Tema 3 - Automação de notificações e relatórios (SMTP/Webhook simulado)** | `montar_alerta_emergencia()`, `montar_resumo_zeladoria()`, `enviar_email()`, `gravar_relatorios()` | Entrega a informação certa à pessoa certa sem ação manual: alerta de emergência em HTML acessível (alto contraste, tabela semântica, criticidade em texto) para a equipe de campo e resumo operacional para a zeladoria. |
 
 **Combinação:** a API (T1) muda o *peso* da decisão tomada sobre os dados limpos (T2), e o resultado vira ação concreta para pessoas (T3). Sem qualquer um dos três, o fluxo deixa de fechar.
 
