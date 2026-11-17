@@ -3,6 +3,7 @@
 **Integrante (trabalho individual):** Octavio Augusto Ramalho Brandão Pires, RM 555696
 **Repositório:** https://github.com/Augusto060908657/PLN-Rodar/tree/main/GS-PLN-Repositorio
 **Vídeo de demonstração (até 5 minutos):** https://youtu.be/bQPZ1kpIc0I
+**Colab:** https://colab.research.google.com/drive/1EiKVCiy6uc7YHFbbjqpbzRLLft1EJqZE?usp=sharing
 
 O cidadão **fala** um problema urbano (buraco, árvore, lâmpada queimada, bueiro, entulho, calçada, semáforo). O assistente transcreve a fala (STT), entende com um LLM, faz as perguntas que faltam (tipo, local, gravidade), confirma e gera um **protocolo simulado**, orientando o pedido oficial no SP156. A resposta é falada (TTS), e a transcrição e o texto aparecem na tela.
 
