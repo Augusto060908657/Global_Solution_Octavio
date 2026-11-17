@@ -16,10 +16,10 @@
 
 ## 1. Visão Geral do Ecossistema
 
-O **CitizenTech — Cidade Para Todos** é um protótipo de plataforma cívica multimodal desenvolvido ao longo da Global Solution 2026.2 para apoiar o atendimento ao cidadão e a triagem de zeladoria urbana (buracos, iluminação, poda de árvores, entulho, alagamentos e acessibilidade)[cite: 1, 16]. 
+O **CitizenTech - Cidade Para Todos** é um protótipo de plataforma cívica multimodal desenvolvido ao longo da Global Solution 2026.2 para apoiar o atendimento ao cidadão e a triagem de zeladoria urbana (buracos, iluminação, poda de árvores, entulho, alagamentos e acessibilidade)[cite: 1, 16]. 
 
 A solução ataca duas barreiras centrais dos canais públicos atuais:
-1. **Exclusão digital e barreiras de acesso:** oferece múltiplos canais de interação adaptados ao perfil do cidadão — texto simples com alto contraste, assistente de voz para idosos e pessoas com baixa alfabetização[cite: 16], e detecção sonora local para pessoas surdas ou com deficiência auditiva[cite: 24, 25].
+1. **Exclusão digital e barreiras de acesso:** oferece múltiplos canais de interação adaptados ao perfil do cidadão, texto simples com alto contraste, assistente de voz para idosos e pessoas com baixa alfabetização[cite: 16], e detecção sonora local para pessoas surdas ou com deficiência auditiva[cite: 24, 25].
 2. **Triagem manual lenta e dados ruidosos:** automatiza a validação de registros, o cruzamento com alertas climáticos, a detecção de danos viários por imagem e a orientação sobre direitos urbanos fundamentada em documentos.
 
 Este repositório consolida os **8 módulos técnicos** construídos nas disciplinas do semestre sob a ótica de **Governança em IA** (privacidade/LGPD, transparência, licenciamento, mitigação de riscos e revisão humana) e **Business Analytics** (indicadores operacionais e planejamento de capacidade).
