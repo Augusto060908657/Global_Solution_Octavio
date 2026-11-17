@@ -1,0 +1,117 @@
+{
+  "arquivo": "buraco_ext_021.jpg",
+  "pasta": "buracos",
+  "largura": 536,
+  "altura": 300,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 6,
+  "buracos": 6,
+  "rachaduras": 0,
+  "inference_ms": 8.53,
+  "tempo_total_ms": 11.7,
+  "deteccoes": [
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.8341,
+      "bbox_xyxy": [
+        101.5,
+        36.2,
+        254.3,
+        102.3
+      ],
+      "bbox_norm_xywh": [
+        0.3319,
+        0.23084,
+        0.28508,
+        0.22021
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.7825,
+      "bbox_xyxy": [
+        183.8,
+        134.1,
+        482.1,
+        292.9
+      ],
+      "bbox_norm_xywh": [
+        0.62117,
+        0.71154,
+        0.55646,
+        0.52928
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.6107,
+      "bbox_xyxy": [
+        414.6,
+        23.9,
+        469.5,
+        42.5
+      ],
+      "bbox_norm_xywh": [
+        0.82469,
+        0.11063,
+        0.10231,
+        0.06202
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.5911,
+      "bbox_xyxy": [
+        445.4,
+        42.9,
+        504.4,
+        62.6
+      ],
+      "bbox_norm_xywh": [
+        0.88603,
+        0.1758,
+        0.11013,
+        0.06543
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.3733,
+      "bbox_xyxy": [
+        302.9,
+        55.3,
+        365.0,
+        82.7
+      ],
+      "bbox_norm_xywh": [
+        0.623,
+        0.22991,
+        0.11592,
+        0.09125
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.213,
+      "bbox_xyxy": [
+        449.5,
+        43.0,
+        491.3,
+        57.9
+      ],
+      "bbox_norm_xywh": [
+        0.87764,
+        0.16821,
+        0.07803,
+        0.0497
+      ]
+    }
+  ]
+}

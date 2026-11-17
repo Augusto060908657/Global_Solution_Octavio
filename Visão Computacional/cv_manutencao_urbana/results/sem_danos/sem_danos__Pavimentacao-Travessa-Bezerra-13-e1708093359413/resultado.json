@@ -1,0 +1,14 @@
+{
+  "arquivo": "Pavimentacao-Travessa-Bezerra-13-e1708093359413.jpeg",
+  "pasta": "sem_danos",
+  "largura": 1568,
+  "altura": 882,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 0,
+  "buracos": 0,
+  "rachaduras": 0,
+  "inference_ms": 56.24,
+  "tempo_total_ms": 59.2,
+  "deteccoes": []
+}

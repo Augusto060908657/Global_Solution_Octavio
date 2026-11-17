@@ -1,0 +1,5 @@
+arquivo,pasta,largura,altura,conf_usada,imgsz,quantidade_defeitos,buracos,rachaduras,inference_ms,tempo_total_ms,conf_maxima
+Pavimentacao-Travessa-Bezerra-13-e1708093359413.jpeg,sem_danos,1568,882,0.17500000000000004,640,0,0,0,56.24,59.2,0.0
+RUA-UMBELINO-DE-OLIVEIRA-scaled.jpg,sem_danos,2560,1440,0.17500000000000004,640,0,0,0,52.07,55.4,0.0
+pexels-anderson-martinsz-34634610.jpg,sem_danos,4026,6039,0.17500000000000004,640,0,0,0,65.07,69.6,0.0
+photo-1546636889-ba9fdd63583e.avif,sem_danos,3000,4200,0.17500000000000004,640,1,1,0,68.81,253.7,0.1805

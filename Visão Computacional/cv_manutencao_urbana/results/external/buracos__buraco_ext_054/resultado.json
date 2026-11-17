@@ -1,0 +1,117 @@
+{
+  "arquivo": "buraco_ext_054.jpg",
+  "pasta": "buracos",
+  "largura": 400,
+  "altura": 300,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 6,
+  "buracos": 6,
+  "rachaduras": 0,
+  "inference_ms": 9.28,
+  "tempo_total_ms": 12.5,
+  "deteccoes": [
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.5472,
+      "bbox_xyxy": [
+        233.4,
+        85.0,
+        332.0,
+        113.5
+      ],
+      "bbox_norm_xywh": [
+        0.7067,
+        0.33091,
+        0.2466,
+        0.09502
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.4708,
+      "bbox_xyxy": [
+        60.6,
+        100.7,
+        391.1,
+        222.0
+      ],
+      "bbox_norm_xywh": [
+        0.5647,
+        0.5377,
+        0.82615,
+        0.40429
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.4337,
+      "bbox_xyxy": [
+        66.8,
+        172.0,
+        202.6,
+        215.5
+      ],
+      "bbox_norm_xywh": [
+        0.33675,
+        0.64581,
+        0.33968,
+        0.14523
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.4239,
+      "bbox_xyxy": [
+        225.0,
+        182.9,
+        270.3,
+        199.5
+      ],
+      "bbox_norm_xywh": [
+        0.61922,
+        0.6373,
+        0.11324,
+        0.05522
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.1987,
+      "bbox_xyxy": [
+        68.2,
+        165.4,
+        260.9,
+        218.0
+      ],
+      "bbox_norm_xywh": [
+        0.41139,
+        0.63902,
+        0.48193,
+        0.17524
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.1833,
+      "bbox_xyxy": [
+        44.7,
+        258.9,
+        81.2,
+        284.3
+      ],
+      "bbox_norm_xywh": [
+        0.15733,
+        0.90523,
+        0.09129,
+        0.08474
+      ]
+    }
+  ]
+}

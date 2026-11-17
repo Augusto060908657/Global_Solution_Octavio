@@ -1,0 +1,17 @@
+{
+  "backend": "sentence-transformers",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "chunking": "hybrid-500/50",
+  "n_chunks": 42,
+  "threshold": 0.368,
+  "metodo": "calibrado (max_neg + 30% da folga até min_pos)",
+  "scores_positivos": [
+    0.408,
+    0.43,
+    0.686
+  ],
+  "scores_negativos": [
+    0.351,
+    0.236
+  ]
+}

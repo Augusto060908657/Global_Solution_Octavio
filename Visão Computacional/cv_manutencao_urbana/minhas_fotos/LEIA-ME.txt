@@ -1,0 +1,2 @@
+Coloque aqui as SUAS fotos de rua (JPG/PNG). Elas entram automaticamente nas demonstrações
+(reports/demo/externas_minhas_fotos.jpg) e em `python infer.py --source minhas_fotos --out results/minhas_fotos`.

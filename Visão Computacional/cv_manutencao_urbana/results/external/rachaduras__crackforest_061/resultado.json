@@ -1,0 +1,49 @@
+{
+  "arquivo": "crackforest_061.jpg",
+  "pasta": "rachaduras",
+  "largura": 480,
+  "altura": 320,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 2,
+  "buracos": 0,
+  "rachaduras": 2,
+  "inference_ms": 7.48,
+  "tempo_total_ms": 10.3,
+  "deteccoes": [
+    {
+      "class": "Rachadura",
+      "class_en": "crack",
+      "confidence": 0.2679,
+      "bbox_xyxy": [
+        91.7,
+        0.0,
+        478.4,
+        191.8
+      ],
+      "bbox_norm_xywh": [
+        0.59386,
+        0.29975,
+        0.80551,
+        0.59951
+      ]
+    },
+    {
+      "class": "Rachadura",
+      "class_en": "crack",
+      "confidence": 0.2052,
+      "bbox_xyxy": [
+        249.7,
+        0.0,
+        477.8,
+        189.1
+      ],
+      "bbox_norm_xywh": [
+        0.75784,
+        0.29552,
+        0.47518,
+        0.59103
+      ]
+    }
+  ]
+}

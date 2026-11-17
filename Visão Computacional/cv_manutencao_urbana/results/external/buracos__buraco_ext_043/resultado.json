@@ -1,0 +1,117 @@
+{
+  "arquivo": "buraco_ext_043.jpg",
+  "pasta": "buracos",
+  "largura": 557,
+  "altura": 300,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 6,
+  "buracos": 6,
+  "rachaduras": 0,
+  "inference_ms": 9.53,
+  "tempo_total_ms": 12.8,
+  "deteccoes": [
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.7975,
+      "bbox_xyxy": [
+        166.0,
+        23.4,
+        344.9,
+        127.6
+      ],
+      "bbox_norm_xywh": [
+        0.45864,
+        0.25169,
+        0.32117,
+        0.34712
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.7707,
+      "bbox_xyxy": [
+        451.9,
+        43.8,
+        556.2,
+        103.8
+      ],
+      "bbox_norm_xywh": [
+        0.90497,
+        0.24604,
+        0.18734,
+        0.19999
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.6854,
+      "bbox_xyxy": [
+        427.9,
+        85.5,
+        475.9,
+        112.2
+      ],
+      "bbox_norm_xywh": [
+        0.8113,
+        0.32942,
+        0.08604,
+        0.08913
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.5648,
+      "bbox_xyxy": [
+        98.1,
+        135.6,
+        477.1,
+        300.0
+      ],
+      "bbox_norm_xywh": [
+        0.51633,
+        0.72597,
+        0.68037,
+        0.54806
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.2388,
+      "bbox_xyxy": [
+        141.0,
+        0.0,
+        196.0,
+        7.8
+      ],
+      "bbox_norm_xywh": [
+        0.3025,
+        0.01297,
+        0.09866,
+        0.02595
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.2242,
+      "bbox_xyxy": [
+        0.0,
+        84.5,
+        481.6,
+        300.0
+      ],
+      "bbox_norm_xywh": [
+        0.4323,
+        0.64077,
+        0.86459,
+        0.71847
+      ]
+    }
+  ]
+}

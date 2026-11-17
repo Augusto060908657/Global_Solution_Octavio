@@ -1,0 +1,32 @@
+{
+  "arquivo": "buraco_ext_065.jpg",
+  "pasta": "buracos",
+  "largura": 720,
+  "altura": 720,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 1,
+  "buracos": 1,
+  "rachaduras": 0,
+  "inference_ms": 8.44,
+  "tempo_total_ms": 12.0,
+  "deteccoes": [
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.7472,
+      "bbox_xyxy": [
+        110.6,
+        228.4,
+        619.2,
+        440.7
+      ],
+      "bbox_norm_xywh": [
+        0.5068,
+        0.46466,
+        0.70646,
+        0.29496
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "arquivo": "buraco_ext_041.jpg",
+  "pasta": "buracos",
+  "largura": 720,
+  "altura": 720,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 4,
+  "buracos": 4,
+  "rachaduras": 0,
+  "inference_ms": 9.32,
+  "tempo_total_ms": 13.6,
+  "deteccoes": [
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.8757,
+      "bbox_xyxy": [
+        258.1,
+        109.2,
+        539.8,
+        262.6
+      ],
+      "bbox_norm_xywh": [
+        0.55408,
+        0.25814,
+        0.3912,
+        0.21304
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.465,
+      "bbox_xyxy": [
+        148.2,
+        455.2,
+        309.0,
+        618.4
+      ],
+      "bbox_norm_xywh": [
+        0.31753,
+        0.74554,
+        0.22339,
+        0.22674
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.3736,
+      "bbox_xyxy": [
+        0.0,
+        123.2,
+        57.8,
+        194.6
+      ],
+      "bbox_norm_xywh": [
+        0.04012,
+        0.22071,
+        0.08025,
+        0.09927
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.3455,
+      "bbox_xyxy": [
+        145.1,
+        450.2,
+        323.3,
+        711.0
+      ],
+      "bbox_norm_xywh": [
+        0.32524,
+        0.80637,
+        0.2475,
+        0.36219
+      ]
+    }
+  ]
+}

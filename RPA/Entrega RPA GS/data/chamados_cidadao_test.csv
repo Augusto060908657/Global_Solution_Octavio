@@ -1,0 +1,85 @@
+id_chamado,data_registro,categoria,descricao,latitude,longitude,bairro,rotulo_esperado
+CH-0006,2026-09-25 18:55:02,queda_arvore,"Árvore caída sobre carro, pessoa ferida",-23.636163,-46.403981,Santana,CRITICA
+CH-0025,2026-09-22 10:45:02,iluminacao_publica,"Poste apagado na rua, local escuro, idosos com medo de passar",-23.471326,-46.492999,Itaquera,MEDIA
+CH-0002,2026-10-22 08:25:02,calcada_danificada,"Calçada com piso solto, cadeirante não consegue passar",-23.538628,-46.762587,Santana,ALTA
+CH-0056,2026-09-08 16:25:02,iluminacao_publica,"Fio exposto em poste caído, risco de choque Tel 11 98765-4321",-23.598377,-46.684574,Butantã,CRITICA
+CH-0020,2026-10-05 17:23:02,buraco,Buraco no asfalto Contato: maria.teste@exemplo.com,-23.474452,-46.552401,Vila Mariana,MEDIA
+CH-0009,2026-09-25 02:05:02,semaforo_quebrado,Tempo do semáforo de pedestres curto demais para idosos,-23.487090,-46.660422,Santo Amaro,MEDIA
+CH-0024,2026-10-02 22:03:02,calcada_danificada,"Calçada quebrada, idosa tropeçou Ligar para (11) 91234-5678",-23.465945,-46.717252,Santana,MEDIA
+CH-0045,2026-09-28 22:28:02,buraco,Buraco pequeno na calçada em frente ao mercado,-23.467521,-46.563523,Lapa,BAIXA
+CH-0030,2026-10-23 00:22:02,buraco,Buraco pequeno na calçada em frente ao mercado,-23.678599,-46.525788,Lapa,BAIXA
+CH-0010,2026-09-18 23:56:02,queda_arvore,"Árvore caída bloqueando a rua inteira, ônibus impedidos",-23.707139,-46.726940,Itaquera,ALTA
+CH-0012,2026-10-05 14:42:02,rampa_obstruida,"Rampa em frente à escola obstruída, aluno cadeirante não consegue entrar",-23.450802,-46.727434,Pinheiros,CRITICA
+CH-0063,2026-99-99 25:61:00,semaforo_quebrado,"Semáforo apagado no cruzamento movimentado, quase acidente ontem",-23.485575,-46.770581,Butantã,INVALIDO
+CH-0004,2026-09-24 08:46:02,rampa_obstruida,"Rampa em frente à escola obstruída, aluno cadeirante não consegue entrar",-23.701204,-46.644997,Mooca,CRITICA
+CH-0076,2026-09-13 17:11:02,queda_arvore,,-23.579268,-46.625691,Itaquera,INVALIDO
+CH-0066,,rampa_obstruida,"Rampa em frente à escola obstruída, aluno cadeirante não consegue entrar",-23.658443,-46.477769,Santana,INVALIDO
+CH-0015,2026-09-20 13:47:02,semaforo_quebrado,"Semáforo apagado no cruzamento movimentado, quase acidente ontem",-23.491766,-46.775637,Penha,ALTA
+CH-0054,2026-10-27 09:12:02,alagamento,Ponto de alagamento recorrente com bueiro entupido,-23.483086,-46.497882,Lapa,MEDIA
+CH-0035,2026-10-07 09:35:02,calcada_danificada,"Calçada com piso solto, cadeirante não consegue passar",-23.707945,-46.710275,Mooca,ALTA
+CH-0075,2026-10-09 20:06:02,calcada_danificada,"Calçada quebrada, idosa tropeçou",-22.9068,-43.1729,Liberdade,INVALIDO
+CH-0079,2026-10-15 14:38:02,rampa_obstruida,ok,-23.595364,-46.539482,Santana,INVALIDO
+CH-0069,2026-11-03 13:52:02,semaforo_quebrado,"Semáforo apagado no cruzamento movimentado, quase acidente ontem",,-46.406251,Butantã,INVALIDO
+CH-0026,2026-10-13 02:33:02,calcada_danificada,Pequena rachadura na calçada,-23.630302,-46.524759,Penha,BAIXA
+CH-0072,2026-09-24 11:07:02,queda_arvore,Galho grande quase caindo sobre a calçada,-23.534171,,Butantã,INVALIDO
+CH-0013,2026-10-25 20:03:02,semaforo_quebrado,"Semáforo apagado em frente ao hospital, ambulâncias cruzando, urgente",-23.491669,-46.721920,Lapa,CRITICA
+CH-0008,2026-11-01 10:32:02,semaforo_quebrado,Tempo do semáforo de pedestres curto demais para idosos,-23.508486,-46.627557,Lapa,MEDIA
+CH-0027,2026-11-01 07:29:02,buraco,"Buraco grande na faixa da direita, carros desviando bruscamente",-23.614554,-46.685796,Lapa,MEDIA
+CH-0051,2026-09-12 23:45:02,semaforo_quebrado,"Semáforo apagado em frente ao hospital, ambulâncias cruzando, urgente Falar com joao.ficticio@exemplo.org",-23.639142,-46.720056,Itaquera,CRITICA
+CH-0003,2026-10-06 20:37:02,buraco,Buraco no asfalto Documento 987.654.321-00,-23.490055,-46.635552,Vila Mariana,MEDIA
+CH-0074,2026-09-24 04:10:02,calcada_danificada,"Calçada com piso solto, cadeirante não consegue passar",999.0,-46.587293,Butantã,INVALIDO
+CH-0037,2026-09-07 10:20:02,rampa_obstruida,Rampa obstruída por carro estacionado,-23.499192,-46.411781,Butantã,MEDIA
+CH-0058,2026-09-21 03:55:02,buraco,"Cratera aberta na avenida, ônibus não consegue passar, perigo CPF do solicitante 123.456.789-09",-23.701525,-46.612103,Pinheiros,ALTA
+CH-0022,2026-10-30 17:59:02,rampa_obstruida,Rampa obstruída por carro estacionado,-23.486597,-46.420159,Mooca,MEDIA
+CH-0038,2026-10-11 16:20:02,iluminacao_publica,"Fio exposto em poste caído, risco de choque",-23.604308,-46.698776,Butantã,CRITICA
+CH-0080,2026-10-27 17:28:02,ovni_no_ceu,Galho grande quase caindo sobre a calçada,-23.656874,-46.473506,Santana,INVALIDO
+CH-0077,2026-09-25 07:01:02,semaforo_quebrado,NULL,-23.621034,-46.559606,Santo Amaro,INVALIDO
+CH-0005,2026-09-20 10:20:02,iluminacao_publica,"Poste apagado na rua, local escuro, idosos com medo de passar",-23.567261,-46.714967,Santo Amaro,MEDIA
+CH-0046,2026-09-30 01:10:02,rampa_obstruida,Rampa com pintura desgastada,-23.725405,-46.530198,Itaquera,BAIXA
+CH-0042,2026-11-01 23:00:02,queda_arvore,Galho grande quase caindo sobre a calçada,-23.731713,-46.660830,Penha,MEDIA
+CH-0044,2026-09-11 10:05:02,buraco,Buraco pequeno na calçada em frente ao mercado,-23.729444,-46.754175,Mooca,BAIXA
+CH-0068,2026-12-06 17:30:02,rampa_obstruida,Rampa com pintura desgastada,-23.546145,-46.459409,Itaquera,INVALIDO
+CH-0062,31/02/2026,alagamento,"Rua alagada, água na altura da cintura, moradores ilhados, urgente",-23.457849,-46.495199,Liberdade,INVALIDO
+CH-9999,2026-01-01 10:00:00,buraco,linha com colunas demais,-23.5,-46.6,Lapa,MEDIA,campo_extra,outro_extra
+CH-0065,semana passada,rampa_obstruida,Rampa com pintura desgastada,-23.488350,-46.453735,Santo Amaro,INVALIDO
+CH-0041,2026-11-01 22:43:02,alagamento,"Rua alagada, água na altura da cintura, moradores ilhados, urgente",-23.703561,-46.667251,Penha,CRITICA
+CH-0071,2026-10-09 16:57:02,iluminacao_publica,Lâmpada queimada em praça,-23.692976,,Penha,INVALIDO
+CH-0017,2026-09-19 18:14:02,buraco,"Buraco profundo próximo a escola, crianças atravessam, risco de acidente",-23.702553,-46.778767,Penha,CRITICA
+,2026-10-07 03:34:02,alagamento,Poça grande após chuva na esquina,-23.566618,-46.487974,Lapa,INVALIDO
+CH-0031,2026-10-06 04:18:02,iluminacao_publica,Lâmpada queimada em praça,-23.577137,-46.687661,Mooca,BAIXA
+CH-0048,2026-10-16 15:30:02,rampa_obstruida,"Rampa de acessibilidade bloqueada por entulho, cadeirante precisa descer na rua",-23.548493,-46.666001,Santo Amaro,ALTA
+CH-0011,2026-09-29 05:07:02,rampa_obstruida,"Rampa de acessibilidade bloqueada por entulho, cadeirante precisa descer na rua",-23.525896,-46.617195,Santana,ALTA
+CH-0057,2026-10-15 12:50:02,calcada_danificada,"Calçada quebrada, idosa tropeçou",-23.501196,-46.763247,Itaquera,MEDIA
+CH-0061,32/13/2026 10:00,rampa_obstruida,"Rampa em frente à escola obstruída, aluno cadeirante não consegue entrar",-23.686977,-46.685179,Penha,INVALIDO
+CH-0028,2026-11-05 14:45:02,queda_arvore,"Árvore caída bloqueando a rua inteira, ônibus impedidos",-23.583824,-46.556393,Pinheiros,ALTA
+CH-0033,2026-10-30 16:05:02,alagamento,Ponto de alagamento recorrente com bueiro entupido,-23.547991,-46.406017,Vila Mariana,MEDIA
+CH-0047,2026-10-21 09:05:02,semaforo_quebrado,"Semáforo apagado no cruzamento movimentado, quase acidente ontem",-23.688722,-46.507847,Liberdade,ALTA
+CH-0053,2026-09-10 13:14:02,semaforo_quebrado,Tempo do semáforo de pedestres curto demais para idosos,-23.660186,-46.527912,Mooca,MEDIA
+CH-0040,2026-09-15 23:48:02,buraco,"Buraco profundo próximo a escola, crianças atravessam, risco de acidente",-23.541023,-46.502408,Santo Amaro,CRITICA
+CH-0073,2026-09-27 06:48:02,buraco,Buraco pequeno na calçada em frente ao mercado,abc,-46.430107,Mooca,INVALIDO
+CH-0049,2026-10-30 14:56:02,buraco,"Cratera aberta na avenida, ônibus não consegue passar, perigo",-23.563652,-46.566062,Santana,ALTA
+CH-0021,2026-10-17 10:27:02,buraco,Buraco no asfalto,-23.486383,-46.463967,Santana,MEDIA
+CH-0039,2026-09-07 03:12:02,semaforo_quebrado,Semáforo piscando amarelo há dois dias,-23.749353,-46.631640,Butantã,MEDIA
+CH-0036,2026-10-01 14:27:02,rampa_obstruida,Rampa com pintura desgastada,-23.617061,-46.452687,Penha,BAIXA
+CH-0034,2026-10-24 10:56:02,buraco,"Cratera aberta na avenida, ônibus não consegue passar, perigo",-23.509822,-46.738478,Santo Amaro,ALTA
+CH-0043,2026-11-02 01:25:02,semaforo_quebrado,Semáforo piscando amarelo há dois dias,-23.474184,-46.578172,Liberdade,MEDIA
+CH-0070,2026-09-28 01:23:02,rampa_obstruida,"Rampa em frente à escola obstruída, aluno cadeirante não consegue entrar",,-46.660803,Butantã,INVALIDO
+CH-0018,2026-10-29 21:11:02,queda_arvore,Galho grande quase caindo sobre a calçada,-23.521411,-46.587081,Penha,MEDIA
+CH-0059,2026-09-22 12:56:02,semaforo_quebrado,Semáforo piscando amarelo há dois dias,-23.716438,-46.420881,Pinheiros,MEDIA
+CH-0016,2026-10-15 14:12:02,calcada_danificada,Pequena rachadura na calçada,-23.524737,-46.487932,Butantã,BAIXA
+CH-0078,2026-09-15 18:20:02,alagamento,   ,-23.547312,-46.585754,Mooca,INVALIDO
+CH-0007,2026-09-17 16:16:02,semaforo_quebrado,"Semáforo apagado no cruzamento movimentado, quase acidente ontem",-23.544616,-46.459716,Pinheiros,ALTA
+CH-0060,2026-10-27 04:22:02,alagamento,Poça grande após chuva na esquina,-23.499621,-46.558646,Pinheiros,BAIXA
+CH-0067,,rampa_obstruida,Rampa com pintura desgastada,-23.651521,-46.451546,Penha,INVALIDO
+CH-0023,2026-10-28 12:48:02,rampa_obstruida,"Rampa de acessibilidade bloqueada por entulho, cadeirante precisa descer na rua",-23.456605,-46.577572,Santo Amaro,ALTA
+CH-0029,2026-09-11 07:26:02,buraco,"Buraco grande na faixa da direita, carros desviando bruscamente",-23.681317,-46.435940,Penha,MEDIA
+CH-0055,2026-09-22 20:36:02,alagamento,Poça grande após chuva na esquina,-23.686811,-46.649705,Itaquera,BAIXA
+CH-0014,2026-10-07 01:14:02,queda_arvore,"Árvore caída sobre carro, pessoa ferida",-23.730942,-46.634985,Penha,CRITICA
+CH-0001,2026-09-11 05:54:02,alagamento,"Rua alagada, água na altura da cintura, moradores ilhados, urgente",-23.501179,-46.544962,Santana,CRITICA
+CH-0019,2026-09-18 11:56:02,buraco,"Buraco grande na faixa da direita, carros desviando bruscamente",-23.567309,-46.721921,Penha,MEDIA
+CH-0032,2026-10-09 04:01:02,buraco,"Buraco profundo próximo a escola, crianças atravessam, risco de acidente",-23.720921,-46.616201,Pinheiros,CRITICA
+CH-0052,2026-09-25 01:30:02,semaforo_quebrado,"Semáforo apagado em frente ao hospital, ambulâncias cruzando, urgente",-23.566497,-46.404851,Penha,CRITICA
+CH-0064,ontem,queda_arvore,Galho grande quase caindo sobre a calçada,-23.490781,-46.471915,Mooca,INVALIDO
+CH-0050,2026-10-14 14:34:02,iluminacao_publica,Lâmpada queimada em praça,-23.598235,-46.729667,Santana,BAIXA
+CH-0013,2026-10-25 20:03:02,semaforo_quebrado,"Semáforo apagado em frente ao hospital, ambulâncias cruzando, urgente",-23.491669,-46.721920,Lapa,INVALIDO
+CH-0046,2026-09-30 01:10:02,rampa_obstruida,Rampa com pintura desgastada,-23.725405,-46.530198,Itaquera,INVALIDO

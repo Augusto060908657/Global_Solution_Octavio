@@ -1,0 +1,100 @@
+{
+  "arquivo": "crackforest_079.jpg",
+  "pasta": "rachaduras",
+  "largura": 480,
+  "altura": 320,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 5,
+  "buracos": 0,
+  "rachaduras": 5,
+  "inference_ms": 13.42,
+  "tempo_total_ms": 17.7,
+  "deteccoes": [
+    {
+      "class": "Rachadura",
+      "class_en": "crack",
+      "confidence": 0.3285,
+      "bbox_xyxy": [
+        190.5,
+        3.7,
+        247.4,
+        312.8
+      ],
+      "bbox_norm_xywh": [
+        0.4561,
+        0.49445,
+        0.11865,
+        0.9658
+      ]
+    },
+    {
+      "class": "Rachadura",
+      "class_en": "crack",
+      "confidence": 0.3254,
+      "bbox_xyxy": [
+        229.9,
+        150.6,
+        402.4,
+        196.5
+      ],
+      "bbox_norm_xywh": [
+        0.65857,
+        0.54237,
+        0.35934,
+        0.1432
+      ]
+    },
+    {
+      "class": "Rachadura",
+      "class_en": "crack",
+      "confidence": 0.2868,
+      "bbox_xyxy": [
+        190.6,
+        161.4,
+        235.3,
+        309.1
+      ],
+      "bbox_norm_xywh": [
+        0.44358,
+        0.73512,
+        0.09313,
+        0.46157
+      ]
+    },
+    {
+      "class": "Rachadura",
+      "class_en": "crack",
+      "confidence": 0.278,
+      "bbox_xyxy": [
+        207.8,
+        6.1,
+        238.6,
+        164.3
+      ],
+      "bbox_norm_xywh": [
+        0.46502,
+        0.26632,
+        0.06414,
+        0.49421
+      ]
+    },
+    {
+      "class": "Rachadura",
+      "class_en": "crack",
+      "confidence": 0.1843,
+      "bbox_xyxy": [
+        182.1,
+        80.0,
+        405.1,
+        240.6
+      ],
+      "bbox_norm_xywh": [
+        0.61167,
+        0.50095,
+        0.46455,
+        0.502
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "arquivo": "buraco_ext_051.jpg",
+  "pasta": "buracos",
+  "largura": 400,
+  "altura": 300,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 7,
+  "buracos": 7,
+  "rachaduras": 0,
+  "inference_ms": 8.06,
+  "tempo_total_ms": 11.3,
+  "deteccoes": [
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.7706,
+      "bbox_xyxy": [
+        20.5,
+        228.6,
+        108.7,
+        263.6
+      ],
+      "bbox_norm_xywh": [
+        0.16152,
+        0.82035,
+        0.22034,
+        0.11639
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.6696,
+      "bbox_xyxy": [
+        158.8,
+        152.4,
+        277.8,
+        184.2
+      ],
+      "bbox_norm_xywh": [
+        0.54581,
+        0.56106,
+        0.29747,
+        0.10582
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.5382,
+      "bbox_xyxy": [
+        0.4,
+        143.0,
+        107.9,
+        178.6
+      ],
+      "bbox_norm_xywh": [
+        0.13541,
+        0.536,
+        0.26892,
+        0.11879
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.4958,
+      "bbox_xyxy": [
+        58.2,
+        190.1,
+        117.4,
+        218.8
+      ],
+      "bbox_norm_xywh": [
+        0.21962,
+        0.68152,
+        0.14801,
+        0.09575
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.4067,
+      "bbox_xyxy": [
+        172.2,
+        191.9,
+        361.7,
+        277.5
+      ],
+      "bbox_norm_xywh": [
+        0.6673,
+        0.78242,
+        0.47384,
+        0.28537
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.3143,
+      "bbox_xyxy": [
+        293.8,
+        235.3,
+        364.0,
+        267.5
+      ],
+      "bbox_norm_xywh": [
+        0.82227,
+        0.838,
+        0.1757,
+        0.10761
+      ]
+    },
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.2585,
+      "bbox_xyxy": [
+        90.7,
+        108.6,
+        164.1,
+        128.0
+      ],
+      "bbox_norm_xywh": [
+        0.31847,
+        0.39427,
+        0.18357,
+        0.06461
+      ]
+    }
+  ]
+}

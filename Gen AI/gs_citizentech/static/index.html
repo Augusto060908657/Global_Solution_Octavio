@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cidade Para Todos — Assistente</title>
+<style>
+  :root { --bg:#f5f7fa; --card:#fff; --ink:#1b2733; --muted:#5b6b7a; --brand:#0b5cad; --ok:#1c7c4d; --warn:#a15c00; --bad:#b3261e; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#101820; --card:#18232e; --ink:#e8eef4; --muted:#9db0c1; --brand:#5aa9ff; --ok:#5ed39a; --warn:#f0b35a; --bad:#ff8a80; } }
+  * { box-sizing:border-box; } body { margin:0; font-family:system-ui,Arial,sans-serif; background:var(--bg); color:var(--ink); }
+  header { background:var(--brand); color:#fff; padding:14px 20px; } header h1 { margin:0; font-size:1.1rem; } header p { margin:2px 0 0; font-size:.8rem; opacity:.9; }
+  main { max-width:760px; margin:0 auto; padding:16px; }
+  #log { display:flex; flex-direction:column; gap:12px; min-height:50vh; }
+  .msg { padding:12px 14px; border-radius:12px; background:var(--card); box-shadow:0 1px 3px rgba(0,0,0,.12); white-space:pre-wrap; line-height:1.45; }
+  .user { align-self:flex-end; background:var(--brand); color:#fff; max-width:85%; }
+  .bot { align-self:flex-start; max-width:95%; } .meta { margin-top:8px; font-size:.75rem; color:var(--muted); }
+  .badge { display:inline-block; padding:1px 8px; border-radius:99px; font-size:.7rem; font-weight:600; border:1px solid currentColor; margin-right:6px; }
+  .ok { color:var(--ok); } .abst { color:var(--warn); } .block { color:var(--bad); }
+  form { display:flex; gap:8px; margin-top:16px; } input { flex:1; padding:12px; border-radius:10px; border:1px solid var(--muted); background:var(--card); color:var(--ink); font-size:1rem; }
+  button { padding:12px 18px; border:0; border-radius:10px; background:var(--brand); color:#fff; font-size:1rem; cursor:pointer; } button:disabled { opacity:.6; }
+  .notice { font-size:.75rem; color:var(--muted); margin-top:10px; }
+</style>
+</head>
+<body>
+<header><h1>Cidade Para Todos — Assistente Oficial</h1><p>Orientações sobre serviços públicos, acessibilidade e direitos urbanos</p></header>
+<main>
+  <div id="log" aria-live="polite"></div>
+  <form id="form"><input id="q" maxlength="500" placeholder="Digite sua dúvida (ex.: Qual o prazo para reparar um buraco?)" autocomplete="off" required><button id="send">Enviar</button></form>
+  <p class="notice">Não informe CPF, senhas ou dados pessoais. As respostas vêm exclusivamente da base oficial; quando não houver informação, o assistente avisará.</p>
+</main>
+<script>
+  const sessionId = "web-" + Math.random().toString(36).slice(2, 12);
+  const log = document.getElementById("log"), form = document.getElementById("form"), input = document.getElementById("q"), btn = document.getElementById("send");
+  function add(text, cls) { const d = document.createElement("div"); d.className = "msg " + cls; d.textContent = text; log.appendChild(d); d.scrollIntoView({behavior:"smooth", block:"end"}); return d; }
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault(); const question = input.value.trim(); if (!question) return;
+    add(question, "user"); input.value = ""; btn.disabled = true; const pending = add("Consultando a base oficial…", "bot");
+    try {
+      const r = await fetch("/api/v1/chat", { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({question, session_id: sessionId}) });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const data = await r.json();
+      pending.textContent = data.answer;
+      const meta = document.createElement("div"); meta.className = "meta";
+      const badge = document.createElement("span"); badge.className = "badge " + (data.blocked ? "block" : (data.abstained || data.clarification || data.service_error) ? "abst" : "ok");
+      badge.textContent = data.blocked ? "Bloqueado por segurança" : data.service_error ? "Serviço de geração indisponível" : data.clarification ? "Precisa de mais detalhes" : data.abstained ? "Sem evidência na base" : "Fundamentada na base";
+      meta.appendChild(badge); meta.appendChild(document.createTextNode(`confiança ${data.confidence_score.toFixed(2)} · ${data.processing_time_sec.toFixed(2)} s`));
+      pending.appendChild(meta);
+    } catch (err) { pending.textContent = "Não foi possível consultar o assistente agora. Tente novamente ou procure a Central 156."; }
+    btn.disabled = false; input.focus();
+  });
+</script>
+</body>
+</html>

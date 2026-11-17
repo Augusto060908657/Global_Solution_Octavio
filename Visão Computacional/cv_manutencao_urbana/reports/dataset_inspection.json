@@ -1,0 +1,20 @@
+{
+  "n_amostras_total": 2235,
+  "n_inspecionadas": 60,
+  "formatos_imagem_RAW_HxWxC": {
+    "(640, 1024, 3)": 38,
+    "(630, 1024, 3)": 22
+  },
+  "formatos_mascara": {
+    "(640, 1024, 3)": 76,
+    "(630, 1024, 3)": 44
+  },
+  "valores_unicos_mascara": {
+    "[0]": 51,
+    "[0, 255]": 69
+  },
+  "dtype_mascara": {
+    "uint8": 120
+  },
+  "conclusao": "RAW = JPEG BGR; máscaras = PNG 3 canais binárias (0/255) do mesmo tamanho da RAW -> convertidas para caixas YOLO normalizadas (class cx cy w h)."
+}

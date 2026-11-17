@@ -1,0 +1,86 @@
+{
+  "author": "Octavio Augusto Ramalho Brandão Pires | RM 555696",
+  "grupos_em_mais_de_um_split": 0,
+  "fontes": {
+    "br": {
+      "train": {
+        "imagens": 1497,
+        "caixas_buraco": 716,
+        "caixas_rachadura": 4353,
+        "imagens_sem_dano": 2
+      },
+      "val": {
+        "imagens": 335,
+        "caixas_buraco": 220,
+        "caixas_rachadura": 982,
+        "imagens_sem_dano": 1
+      },
+      "test": {
+        "imagens": 335,
+        "caixas_buraco": 160,
+        "caixas_rachadura": 958,
+        "imagens_sem_dano": 2
+      }
+    },
+    "pothole_github": {
+      "train": {
+        "imagens": 465,
+        "caixas_buraco": 1256,
+        "caixas_rachadura": 0,
+        "imagens_sem_dano": 0
+      },
+      "val": {
+        "imagens": 133,
+        "caixas_buraco": 330,
+        "caixas_rachadura": 0,
+        "imagens_sem_dano": 0
+      },
+      "test": {
+        "imagens": 0,
+        "caixas_buraco": 0,
+        "caixas_rachadura": 0,
+        "imagens_sem_dano": 0
+      }
+    },
+    "rdd2022": {
+      "train": {
+        "imagens": 1531,
+        "caixas_buraco": 252,
+        "caixas_rachadura": 2166,
+        "imagens_sem_dano": 490
+      },
+      "val": {
+        "imagens": 324,
+        "caixas_buraco": 55,
+        "caixas_rachadura": 417,
+        "imagens_sem_dano": 98
+      },
+      "test": {
+        "imagens": 311,
+        "caixas_buraco": 66,
+        "caixas_rachadura": 444,
+        "imagens_sem_dano": 76
+      }
+    },
+    "rf_rua": {
+      "train": {
+        "imagens": 1904,
+        "caixas_buraco": 3337,
+        "caixas_rachadura": 0,
+        "imagens_sem_dano": 197
+      },
+      "val": {
+        "imagens": 238,
+        "caixas_buraco": 448,
+        "caixas_rachadura": 0,
+        "imagens_sem_dano": 30
+      },
+      "test": {
+        "imagens": 238,
+        "caixas_buraco": 411,
+        "caixas_rachadura": 0,
+        "imagens_sem_dano": 11
+      }
+    }
+  }
+}

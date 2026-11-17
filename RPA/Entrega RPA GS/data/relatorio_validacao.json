@@ -1,0 +1,213 @@
+{
+  "amostra": {
+    "total_linhas_dados": 84,
+    "validos_esperados": 60,
+    "invalidos_esperados": 24
+  },
+  "taxa_processamento_validos_pct": 100.0,
+  "acuracia_priorizacao": {
+    "total": 60,
+    "acertos": 43,
+    "acuracia_pct": 71.7,
+    "erros": 17,
+    "erros_por_subestimacao": 14,
+    "erros_sinalizados_para_revisao_humana": 3,
+    "detalhe_erros": [
+      {
+        "id": "CH-0006",
+        "previsto": "ALTA",
+        "esperado": "CRITICA",
+        "categoria": "queda_arvore"
+      },
+      {
+        "id": "CH-0056",
+        "previsto": "ALTA",
+        "esperado": "CRITICA",
+        "categoria": "iluminacao_publica"
+      },
+      {
+        "id": "CH-0038",
+        "previsto": "ALTA",
+        "esperado": "CRITICA",
+        "categoria": "iluminacao_publica"
+      },
+      {
+        "id": "CH-0041",
+        "previsto": "ALTA",
+        "esperado": "CRITICA",
+        "categoria": "alagamento"
+      },
+      {
+        "id": "CH-0014",
+        "previsto": "ALTA",
+        "esperado": "CRITICA",
+        "categoria": "queda_arvore"
+      },
+      {
+        "id": "CH-0001",
+        "previsto": "ALTA",
+        "esperado": "CRITICA",
+        "categoria": "alagamento"
+      },
+      {
+        "id": "CH-0009",
+        "previsto": "ALTA",
+        "esperado": "MEDIA",
+        "categoria": "semaforo_quebrado"
+      },
+      {
+        "id": "CH-0008",
+        "previsto": "ALTA",
+        "esperado": "MEDIA",
+        "categoria": "semaforo_quebrado"
+      },
+      {
+        "id": "CH-0053",
+        "previsto": "ALTA",
+        "esperado": "MEDIA",
+        "categoria": "semaforo_quebrado"
+      },
+      {
+        "id": "CH-0002",
+        "previsto": "MEDIA",
+        "esperado": "ALTA",
+        "categoria": "calcada_danificada"
+      },
+      {
+        "id": "CH-0035",
+        "previsto": "MEDIA",
+        "esperado": "ALTA",
+        "categoria": "calcada_danificada"
+      },
+      {
+        "id": "CH-0020",
+        "previsto": "BAIXA",
+        "esperado": "MEDIA",
+        "categoria": "buraco"
+      },
+      {
+        "id": "CH-0027",
+        "previsto": "BAIXA",
+        "esperado": "MEDIA",
+        "categoria": "buraco"
+      },
+      {
+        "id": "CH-0003",
+        "previsto": "BAIXA",
+        "esperado": "MEDIA",
+        "categoria": "buraco"
+      },
+      {
+        "id": "CH-0021",
+        "previsto": "BAIXA",
+        "esperado": "MEDIA",
+        "categoria": "buraco"
+      },
+      {
+        "id": "CH-0029",
+        "previsto": "BAIXA",
+        "esperado": "MEDIA",
+        "categoria": "buraco"
+      },
+      {
+        "id": "CH-0019",
+        "previsto": "BAIXA",
+        "esperado": "MEDIA",
+        "categoria": "buraco"
+      }
+    ]
+  },
+  "cenario_1_normal": {
+    "execucao_id": "20261106_223812",
+    "csv_lido_com_sucesso": true,
+    "linhas_lidas": 84,
+    "validos": 60,
+    "em_quarentena": 24,
+    "taxa_validos_pct": 71.4,
+    "processados_novos": 60,
+    "ja_processados_anteriormente": 0,
+    "dados_pessoais_mascarados": 6,
+    "distribuicao_criticidade": {
+      "ALTA": 20,
+      "BAIXA": 17,
+      "MEDIA": 15,
+      "CRITICA": 8
+    },
+    "revisao_humana": 20,
+    "alertas_criticos": 8,
+    "alerta_climatico": false,
+    "alertas_disparados": 8,
+    "status_emails": {
+      "alerta_emergencia": "simulado",
+      "resumo_zeladoria": "simulado"
+    },
+    "fonte_clima": "api",
+    "fallback_clima_acionado": false,
+    "logs_warning": 1,
+    "logs_error": 0,
+    "logs_critical": 0,
+    "duracao_s": 0.04
+  },
+  "cenario_2_fallback_cache": {
+    "execucao_id": "20261106_223812",
+    "csv_lido_com_sucesso": true,
+    "linhas_lidas": 84,
+    "validos": 60,
+    "em_quarentena": 24,
+    "taxa_validos_pct": 71.4,
+    "processados_novos": 60,
+    "ja_processados_anteriormente": 0,
+    "dados_pessoais_mascarados": 6,
+    "distribuicao_criticidade": {
+      "ALTA": 20,
+      "BAIXA": 17,
+      "MEDIA": 15,
+      "CRITICA": 8
+    },
+    "revisao_humana": 20,
+    "alertas_criticos": 8,
+    "alerta_climatico": false,
+    "alertas_disparados": 8,
+    "status_emails": {
+      "alerta_emergencia": "simulado",
+      "resumo_zeladoria": "simulado"
+    },
+    "fonte_clima": "cache",
+    "fallback_clima_acionado": true,
+    "logs_warning": 5,
+    "logs_error": 0,
+    "logs_critical": 0,
+    "duracao_s": 0.03
+  },
+  "cenario_3_fallback_neutro": {
+    "execucao_id": "20261106_223812",
+    "csv_lido_com_sucesso": true,
+    "linhas_lidas": 84,
+    "validos": 60,
+    "em_quarentena": 24,
+    "taxa_validos_pct": 71.4,
+    "processados_novos": 60,
+    "ja_processados_anteriormente": 0,
+    "dados_pessoais_mascarados": 6,
+    "distribuicao_criticidade": {
+      "ALTA": 20,
+      "BAIXA": 17,
+      "MEDIA": 15,
+      "CRITICA": 8
+    },
+    "revisao_humana": 43,
+    "alertas_criticos": 8,
+    "alerta_climatico": false,
+    "alertas_disparados": 8,
+    "status_emails": {
+      "alerta_emergencia": "simulado",
+      "resumo_zeladoria": "simulado"
+    },
+    "fonte_clima": "indisponivel",
+    "fallback_clima_acionado": true,
+    "logs_warning": 5,
+    "logs_error": 1,
+    "logs_critical": 0,
+    "duracao_s": 0.03
+  }
+}

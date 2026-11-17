@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE system SYSTEM "iSPD.dtd">
+<system version="1.2">
+    <owner id="user1"/>
+    <machine id="mac0" load="0.0" owner="user1" power="2000.0">
+        <master scheduler="RoundRobin">
+            <slave id="4"/>
+            <slave id="3"/>
+            <slave id="1"/>
+            <slave id="2"/>
+        </master>
+        <position x="111" y="38"/>
+        <icon_id global="0" local="0"/>
+        <characteristic>
+            <process number="1" power="2000.0"/>
+            <memory size="0.0"/>
+            <hard_disk size="0.0"/>
+        </characteristic>
+    </machine>
+    <machine id="mac4" load="0.0" owner="user1" power="2000.0">
+        <position x="333" y="148"/>
+        <icon_id global="4" local="4"/>
+        <characteristic>
+            <process number="1" power="2000.0"/>
+            <memory size="0.0"/>
+            <hard_disk size="0.0"/>
+        </characteristic>
+    </machine>
+    <machine id="mac1" load="0.0" owner="user1" power="2000.0">
+        <position x="74" y="150"/>
+        <icon_id global="1" local="1"/>
+        <characteristic>
+            <process number="1" power="2000.0"/>
+            <memory size="0.0"/>
+            <hard_disk size="0.0"/>
+        </characteristic>
+    </machine>
+    <machine id="mac3" load="0.0" owner="user1" power="2000.0">
+        <position x="260" y="148"/>
+        <icon_id global="3" local="3"/>
+        <characteristic>
+            <process number="1" power="2000.0"/>
+            <memory size="0.0"/>
+            <hard_disk size="0.0"/>
+        </characteristic>
+    </machine>
+    <machine id="mac2" load="0.0" owner="user1" power="2000.0">
+        <position x="150" y="149"/>
+        <icon_id global="2" local="2"/>
+        <characteristic>
+            <process number="1" power="2000.0"/>
+            <memory size="0.0"/>
+            <hard_disk size="0.0"/>
+        </characteristic>
+    </machine>
+    <link bandwidth="100.0" id="link11" latency="1.0" load="0.0">
+        <connect destination="0" origination="4"/>
+        <position x="333" y="148"/>
+        <position x="111" y="38"/>
+        <icon_id global="11" local="6"/>
+    </link>
+    <link bandwidth="100.0" id="link9" latency="1.0" load="0.0">
+        <connect destination="0" origination="3"/>
+        <position x="260" y="148"/>
+        <position x="111" y="38"/>
+        <icon_id global="9" local="4"/>
+    </link>
+    <link bandwidth="100.0" id="link12" latency="1.0" load="0.0">
+        <connect destination="4" origination="0"/>
+        <position x="111" y="38"/>
+        <position x="333" y="148"/>
+        <icon_id global="12" local="7"/>
+    </link>
+    <link bandwidth="100.0" id="link10" latency="1.0" load="0.0">
+        <connect destination="3" origination="0"/>
+        <position x="111" y="38"/>
+        <position x="260" y="148"/>
+        <icon_id global="10" local="5"/>
+    </link>
+    <link bandwidth="100.0" id="link6" latency="1.0" load="0.0">
+        <connect destination="1" origination="0"/>
+        <position x="111" y="38"/>
+        <position x="74" y="150"/>
+        <icon_id global="6" local="1"/>
+    </link>
+    <link bandwidth="100.0" id="link8" latency="1.0" load="0.0">
+        <connect destination="2" origination="0"/>
+        <position x="111" y="38"/>
+        <position x="150" y="149"/>
+        <icon_id global="8" local="3"/>
+    </link>
+    <link bandwidth="100.0" id="link5" latency="1.0" load="0.0">
+        <connect destination="0" origination="1"/>
+        <position x="74" y="150"/>
+        <position x="111" y="38"/>
+        <icon_id global="5" local="0"/>
+    </link>
+    <link bandwidth="100.0" id="link7" latency="1.0" load="0.0">
+        <connect destination="0" origination="2"/>
+        <position x="150" y="149"/>
+        <position x="111" y="38"/>
+        <icon_id global="7" local="2"/>
+    </link>
+    <load>
+        <random tasks="200" time_arrival="0">
+            <size average="5000" maximum="5000" minimum="5000" probability="1.0" type="computing"/>
+            <size average="8" maximum="8" minimum="8" probability="1.0" type="communication"/>
+        </random>
+    </load>
+</system>

@@ -1,0 +1,5 @@
+{
+  "conf": 0.17500000000000004,
+  "criterio": "max F1 medio (IoU>=0.5) na validacao",
+  "imgsz": 640
+}

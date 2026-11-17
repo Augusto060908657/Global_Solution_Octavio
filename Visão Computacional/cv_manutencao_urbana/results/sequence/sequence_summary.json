@@ -1,0 +1,12 @@
+{
+  "quadros": 40,
+  "quadros_com_defeito": 40,
+  "total_defeitos": 141,
+  "fps_processamento_medio": 73.4867080174603,
+  "latencia_media_ms": 13.607903074966998,
+  "inferencia_media_ms": 9.068999999999999,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "dispositivo": "0",
+  "observacao": "tempo por quadro inclui inferência, NMS e desenho; não inclui gravação em disco"
+}

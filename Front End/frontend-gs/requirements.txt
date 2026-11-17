@@ -1,0 +1,4 @@
+# Instala tudo para rodar localmente (cada serviço também tem o seu requirements.txt)
+-r backend/requirements.txt
+-r frontend/requirements.txt
+pytest==9.2.0

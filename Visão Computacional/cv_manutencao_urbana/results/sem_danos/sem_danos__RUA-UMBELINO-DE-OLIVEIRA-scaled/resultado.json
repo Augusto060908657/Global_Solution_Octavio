@@ -1,0 +1,14 @@
+{
+  "arquivo": "RUA-UMBELINO-DE-OLIVEIRA-scaled.jpg",
+  "pasta": "sem_danos",
+  "largura": 2560,
+  "altura": 1440,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 0,
+  "buracos": 0,
+  "rachaduras": 0,
+  "inference_ms": 52.07,
+  "tempo_total_ms": 55.4,
+  "deteccoes": []
+}

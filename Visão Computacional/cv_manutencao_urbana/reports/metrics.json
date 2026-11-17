@@ -1,0 +1,541 @@
+{
+  "author": "Octavio Augusto Ramalho Brandão Pires | RM 555696",
+  "weights": "best.pt",
+  "imgsz": 640,
+  "dados": "data/yolo_mix",
+  "limiar_confianca_escolhido_na_validacao": 0.17500000000000004,
+  "f1_vs_conf_validacao": {
+    "grid": [
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7,
+      0.725,
+      0.75
+    ],
+    "macro_f1": [
+      0.4221,
+      0.473,
+      0.5062,
+      0.5284,
+      0.5451,
+      0.5556,
+      0.5531,
+      0.5518,
+      0.5476,
+      0.5402,
+      0.5347,
+      0.5225,
+      0.5123,
+      0.5016,
+      0.4894,
+      0.4749,
+      0.4603,
+      0.4473,
+      0.4292,
+      0.4135,
+      0.4001,
+      0.3781,
+      0.3594,
+      0.342,
+      0.3237,
+      0.303,
+      0.2762,
+      0.2455,
+      0.2149
+    ]
+  },
+  "teste_ultralytics_conf0.001": {
+    "precision": 0.6043073877463416,
+    "recall": 0.5074792186240966,
+    "f1": 0.5516768041368207,
+    "mAP50": 0.5391903988977909,
+    "mAP50_95": 0.29061851546886774,
+    "por_classe": {
+      "pothole": {
+        "precision": 0.6245946463903524,
+        "recall": 0.6764850974975447,
+        "f1": 0.6495051087294889,
+        "mAP50": 0.6777088737023393,
+        "mAP50_95": 0.40559000090562014
+      },
+      "crack": {
+        "precision": 0.5840201291023308,
+        "recall": 0.3384733397506485,
+        "f1": 0.4285672479061745,
+        "mAP50": 0.4006719240932423,
+        "mAP50_95": 0.17564703003211515
+      }
+    }
+  },
+  "teste_limiar_operacional": {
+    "conf": 0.17500000000000004,
+    "iou_match": 0.5,
+    "por_classe": {
+      "pothole": {
+        "TP": 442,
+        "FP": 331,
+        "FN": 195,
+        "precision": 0.5717981888745148,
+        "recall": 0.6938775510204082,
+        "f1": 0.626950354609929
+      },
+      "crack": {
+        "TP": 511,
+        "FP": 493,
+        "FN": 891,
+        "precision": 0.5089641434262948,
+        "recall": 0.3644793152639087,
+        "f1": 0.4247714048212801
+      }
+    },
+    "matriz_confusao_linhas_real_colunas_previsto": [
+      [
+        442,
+        2,
+        193
+      ],
+      [
+        4,
+        511,
+        887
+      ],
+      [
+        327,
+        491,
+        0
+      ]
+    ],
+    "presenca_por_imagem": {
+      "pothole": {
+        "TP": 305,
+        "FP": 31,
+        "FN": 44,
+        "TN": 504,
+        "precision": 0.9077380952380952,
+        "recall": 0.8739255014326648
+      },
+      "crack": {
+        "TP": 433,
+        "FP": 19,
+        "FN": 73,
+        "TN": 359,
+        "precision": 0.9579646017699115,
+        "recall": 0.8557312252964426
+      }
+    }
+  },
+  "teste_por_fonte": {
+    "br": {
+      "imagens": 335,
+      "mAP50": 0.391782971762209,
+      "mAP50_95": 0.18430010427404925,
+      "precision_ult": 0.4850041454863014,
+      "recall_ult": 0.43628001043841336,
+      "f1_ult": 0.4593536365401873,
+      "limiar": {
+        "pothole": {
+          "precision": 0.4306930693069307,
+          "recall": 0.54375,
+          "f1": 0.48066298342541436
+        },
+        "crack": {
+          "precision": 0.5322314049586777,
+          "recall": 0.33611691022964507,
+          "f1": 0.41202815099168266
+        }
+      },
+      "presenca_por_imagem": {
+        "pothole": {
+          "precision": 0.8529411764705882,
+          "recall": 0.6904761904761905
+        },
+        "crack": {
+          "precision": 0.9735849056603774,
+          "recall": 0.8989547038327527
+        }
+      }
+    },
+    "rdd2022": {
+      "imagens": 311,
+      "mAP50": 0.3427082648702361,
+      "mAP50_95": 0.1497557050283123,
+      "precision_ult": 0.4393606627122164,
+      "recall_ult": 0.3511466011466011,
+      "f1_ult": 0.3903316527056404,
+      "limiar": {
+        "pothole": {
+          "precision": 0.27419354838709675,
+          "recall": 0.25757575757575757,
+          "f1": 0.265625
+        },
+        "crack": {
+          "precision": 0.4772727272727273,
+          "recall": 0.42567567567567566,
+          "f1": 0.45
+        }
+      },
+      "presenca_por_imagem": {
+        "pothole": {
+          "precision": 0.5714285714285714,
+          "recall": 0.631578947368421
+        },
+        "crack": {
+          "precision": 0.9510869565217391,
+          "recall": 0.7990867579908676
+        }
+      }
+    },
+    "rf_rua": {
+      "imagens": 238,
+      "mAP50": 0.8335558417999653,
+      "mAP50_95": 0.527042797757192,
+      "precision_ult": 0.8520646050775462,
+      "recall_ult": 0.7287238483315082,
+      "f1_ult": 0.7855824056661467,
+      "limiar": {
+        "pothole": {
+          "precision": 0.6640471512770137,
+          "recall": 0.8223844282238443,
+          "f1": 0.7347826086956523
+        },
+        "crack": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "presenca_por_imagem": {
+        "pothole": {
+          "precision": 0.9867256637168141,
+          "recall": 0.9823788546255506
+        },
+        "crack": {
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    }
+  },
+  "fatores_de_erro": {
+    "brilho": {
+      "baixo": {
+        "imagens": 295.0,
+        "objetos": 817.0,
+        "acertos": 360.0,
+        "fp": 355.0,
+        "faixa_min": 24.4729,
+        "faixa_max": 120.6535,
+        "recall": 0.4406,
+        "fp_por_imagem": 1.2034
+      },
+      "médio": {
+        "imagens": 294.0,
+        "objetos": 635.0,
+        "acertos": 281.0,
+        "fp": 230.0,
+        "faixa_min": 120.903,
+        "faixa_max": 143.8126,
+        "recall": 0.4425,
+        "fp_por_imagem": 0.7823
+      },
+      "alto": {
+        "imagens": 295.0,
+        "objetos": 587.0,
+        "acertos": 312.0,
+        "fp": 239.0,
+        "faixa_min": 143.8308,
+        "faixa_max": 213.9914,
+        "recall": 0.5315,
+        "fp_por_imagem": 0.8102
+      }
+    },
+    "area_escura": {
+      "baixo": {
+        "imagens": 295.0,
+        "objetos": 765.0,
+        "acertos": 325.0,
+        "fp": 286.0,
+        "faixa_min": 0.0,
+        "faixa_max": 0.0064,
+        "recall": 0.4248,
+        "fp_por_imagem": 0.9695
+      },
+      "médio": {
+        "imagens": 294.0,
+        "objetos": 772.0,
+        "acertos": 371.0,
+        "fp": 314.0,
+        "faixa_min": 0.0065,
+        "faixa_max": 0.055,
+        "recall": 0.4806,
+        "fp_por_imagem": 1.068
+      },
+      "alto": {
+        "imagens": 295.0,
+        "objetos": 502.0,
+        "acertos": 257.0,
+        "fp": 224.0,
+        "faixa_min": 0.0555,
+        "faixa_max": 0.9272,
+        "recall": 0.512,
+        "fp_por_imagem": 0.7593
+      }
+    },
+    "textura": {
+      "baixo": {
+        "imagens": 295.0,
+        "objetos": 941.0,
+        "acertos": 357.0,
+        "fp": 338.0,
+        "faixa_min": 0.0039,
+        "faixa_max": 0.0591,
+        "recall": 0.3794,
+        "fp_por_imagem": 1.1458
+      },
+      "médio": {
+        "imagens": 294.0,
+        "objetos": 621.0,
+        "acertos": 333.0,
+        "fp": 264.0,
+        "faixa_min": 0.0592,
+        "faixa_max": 0.1225,
+        "recall": 0.5362,
+        "fp_por_imagem": 0.898
+      },
+      "alto": {
+        "imagens": 295.0,
+        "objetos": 477.0,
+        "acertos": 263.0,
+        "fp": 222.0,
+        "faixa_min": 0.1227,
+        "faixa_max": 0.343,
+        "recall": 0.5514,
+        "fp_por_imagem": 0.7525
+      }
+    },
+    "contraste": {
+      "baixo": {
+        "imagens": 295.0,
+        "objetos": 786.0,
+        "acertos": 320.0,
+        "fp": 329.0,
+        "faixa_min": 11.5808,
+        "faixa_max": 27.9399,
+        "recall": 0.4071,
+        "fp_por_imagem": 1.1153
+      },
+      "médio": {
+        "imagens": 294.0,
+        "objetos": 818.0,
+        "acertos": 395.0,
+        "fp": 309.0,
+        "faixa_min": 27.9412,
+        "faixa_max": 45.377,
+        "recall": 0.4829,
+        "fp_por_imagem": 1.051
+      },
+      "alto": {
+        "imagens": 295.0,
+        "objetos": 435.0,
+        "acertos": 238.0,
+        "fp": 186.0,
+        "faixa_min": 45.3953,
+        "faixa_max": 97.1703,
+        "recall": 0.5471,
+        "fp_por_imagem": 0.6305
+      }
+    },
+    "tamanho_objeto": {
+      "pequeno": {
+        "objetos": 680.0,
+        "recall": 0.26176,
+        "area_min": 0.00012,
+        "area_max": 0.00451
+      },
+      "médio": {
+        "objetos": 679.0,
+        "recall": 0.40648,
+        "area_min": 0.00452,
+        "area_max": 0.0332
+      },
+      "grande": {
+        "objetos": 680.0,
+        "recall": 0.73382,
+        "area_min": 0.03325,
+        "area_max": 0.95228
+      }
+    }
+  },
+  "benchmark": {
+    "cpu": {
+      "dispositivo": "CPU: Intel(R) Xeon(R) CPU @ 2.00GHz",
+      "dispositivo_verificado": "cpu",
+      "imagem_original": [
+        1024,
+        640
+      ],
+      "imgsz": 640,
+      "tensor_forward": [
+        1,
+        3,
+        416,
+        640
+      ],
+      "warmup": 10,
+      "iteracoes": 100,
+      "hardware": {
+        "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+        "gpu": "Tesla T4",
+        "cpu_threads": 2,
+        "system": "Linux 6.6.159+",
+        "python": "3.13.16",
+        "torch": "2.14.1+cu130",
+        "cuda_available": true
+      },
+      "torch_threads": 1,
+      "ponta_a_ponta": {
+        "latencia_media_ms": 89.02871890001052,
+        "p95_ms": 112.64817835011627,
+        "desvio_ms": 16.679982995104808,
+        "fps": 11.232330559795148,
+        "preprocess_ms_medio": 3.094416169997203,
+        "inference_ms_medio": 84.52461612999741,
+        "postprocess_ms_medio": 0.8997446699936518
+      },
+      "forward_puro": {
+        "latencia_media_ms": 87.04455338000344,
+        "p95_ms": 99.7977648000642,
+        "fps": 11.488369589701726
+      },
+      "limiar_x_latencia": [
+        {
+          "conf": 0.05,
+          "latencia_media_ms": 105.09862110003117,
+          "fps": 9.514872693222266,
+          "deteccoes": 1
+        },
+        {
+          "conf": 0.1,
+          "latencia_media_ms": 96.53786003333,
+          "fps": 10.358630278884853,
+          "deteccoes": 1
+        },
+        {
+          "conf": 0.25,
+          "latencia_media_ms": 74.54820133334579,
+          "fps": 13.414139873455202,
+          "deteccoes": 1
+        },
+        {
+          "conf": 0.5,
+          "latencia_media_ms": 71.54691653333127,
+          "fps": 13.976842727165385,
+          "deteccoes": 0
+        }
+      ]
+    },
+    "gpu": {
+      "dispositivo": "GPU: Tesla T4",
+      "dispositivo_verificado": "cuda:0",
+      "imagem_original": [
+        1024,
+        640
+      ],
+      "imgsz": 640,
+      "tensor_forward": [
+        1,
+        3,
+        416,
+        640
+      ],
+      "warmup": 10,
+      "iteracoes": 100,
+      "hardware": {
+        "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+        "gpu": "Tesla T4",
+        "cpu_threads": 2,
+        "system": "Linux 6.6.159+",
+        "python": "3.13.16",
+        "torch": "2.14.1+cu130",
+        "cuda_available": true
+      },
+      "torch_threads": 1,
+      "ponta_a_ponta": {
+        "latencia_media_ms": 10.364319930004058,
+        "p95_ms": 12.560018700162342,
+        "desvio_ms": 1.1413865527895544,
+        "fps": 96.48486410623649,
+        "preprocess_ms_medio": 1.3850418100014394,
+        "inference_ms_medio": 7.534667530001116,
+        "postprocess_ms_medio": 1.1232573200118168
+      },
+      "forward_puro": {
+        "latencia_media_ms": 10.403731000010339,
+        "p95_ms": 12.299308599926917,
+        "fps": 96.11936333215519
+      },
+      "limiar_x_latencia": [
+        {
+          "conf": 0.05,
+          "latencia_media_ms": 10.745284533300037,
+          "fps": 93.06407819178382,
+          "deteccoes": 1
+        },
+        {
+          "conf": 0.1,
+          "latencia_media_ms": 11.542564299952573,
+          "fps": 86.63586132278326,
+          "deteccoes": 1
+        },
+        {
+          "conf": 0.25,
+          "latencia_media_ms": 10.48065293335488,
+          "fps": 95.41390277484341,
+          "deteccoes": 1
+        },
+        {
+          "conf": 0.5,
+          "latencia_media_ms": 9.575749300006464,
+          "fps": 104.43046999980722,
+          "deteccoes": 0
+        }
+      ]
+    }
+  },
+  "externo_buracos": {
+    "imagens": 67,
+    "fonte": "Muhammad-aa/Pothole-Detector (test; estas imagens NÃO foram usadas no treino, mas train/valid da MESMA fonte entraram no treino: mede desempenho nessa fonte, não domínio novo)",
+    "TP": 121,
+    "FP": 67,
+    "FN": 33,
+    "precision": 0.6436170212765957,
+    "recall": 0.7857142857142857,
+    "f1": 0.7076023391812865,
+    "conf": 0.17500000000000004,
+    "iou_match": 0.5
+  }
+}

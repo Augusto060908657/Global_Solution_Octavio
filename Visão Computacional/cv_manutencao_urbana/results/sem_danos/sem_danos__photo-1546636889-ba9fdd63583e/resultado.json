@@ -1,0 +1,32 @@
+{
+  "arquivo": "photo-1546636889-ba9fdd63583e.avif",
+  "pasta": "sem_danos",
+  "largura": 3000,
+  "altura": 4200,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 1,
+  "buracos": 1,
+  "rachaduras": 0,
+  "inference_ms": 68.81,
+  "tempo_total_ms": 253.7,
+  "deteccoes": [
+    {
+      "class": "Buraco",
+      "class_en": "pothole",
+      "confidence": 0.1805,
+      "bbox_xyxy": [
+        1925.2,
+        2848.8,
+        2070.0,
+        2914.4
+      ],
+      "bbox_norm_xywh": [
+        0.66587,
+        0.68609,
+        0.04827,
+        0.01561
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "arquivo": "buraco_ext_013.jpg",
+  "pasta": "buracos",
+  "largura": 720,
+  "altura": 720,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 0,
+  "buracos": 0,
+  "rachaduras": 0,
+  "inference_ms": 8.47,
+  "tempo_total_ms": 11.5,
+  "deteccoes": []
+}

@@ -1,0 +1,32 @@
+{
+  "arquivo": "crackforest_018.jpg",
+  "pasta": "rachaduras",
+  "largura": 480,
+  "altura": 320,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 1,
+  "buracos": 0,
+  "rachaduras": 1,
+  "inference_ms": 7.8,
+  "tempo_total_ms": 10.6,
+  "deteccoes": [
+    {
+      "class": "Rachadura",
+      "class_en": "crack",
+      "confidence": 0.5792,
+      "bbox_xyxy": [
+        16.5,
+        63.4,
+        480.0,
+        237.6
+      ],
+      "bbox_norm_xywh": [
+        0.51719,
+        0.47029,
+        0.96563,
+        0.5446
+      ]
+    }
+  ]
+}

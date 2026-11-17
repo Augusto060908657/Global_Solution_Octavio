@@ -1,0 +1,61 @@
+{
+  "author": "Octavio Augusto Ramalho Brandão Pires | RM 555696",
+  "seed": 42,
+  "imagens": 2235,
+  "grupos": 290,
+  "stretch_frames": 200,
+  "buffer_frames": 30,
+  "imagens_descartadas_zona_tampao": 68,
+  "box_params": {
+    "crack": {
+      "dilate": 21,
+      "min_area": 60,
+      "min_side": 20
+    },
+    "pothole": {
+      "dilate": 9,
+      "min_area": 200,
+      "min_side": 12
+    }
+  },
+  "grupos_em_mais_de_um_split": 0,
+  "splits": {
+    "train": {
+      "imagens": 1497,
+      "grupos": 204,
+      "caixas_buraco": 716,
+      "caixas_rachadura": 4353,
+      "imgs_com_buraco": 373,
+      "imgs_com_rachadura": 1287,
+      "imgs_sem_dano": 2
+    },
+    "val": {
+      "imagens": 335,
+      "grupos": 35,
+      "caixas_buraco": 220,
+      "caixas_rachadura": 982,
+      "imgs_com_buraco": 86,
+      "imgs_com_rachadura": 285,
+      "imgs_sem_dano": 1
+    },
+    "test": {
+      "imagens": 335,
+      "grupos": 49,
+      "caixas_buraco": 160,
+      "caixas_rachadura": 958,
+      "imgs_com_buraco": 84,
+      "imgs_com_rachadura": 287,
+      "imgs_sem_dano": 2
+    }
+  },
+  "auditoria_quase_duplicatas": {
+    "val": {
+      "verificadas": 335,
+      "quase_duplicatas_vs_train(dist<=3)": 11
+    },
+    "test": {
+      "verificadas": 335,
+      "quase_duplicatas_vs_train(dist<=3)": 12
+    }
+  }
+}

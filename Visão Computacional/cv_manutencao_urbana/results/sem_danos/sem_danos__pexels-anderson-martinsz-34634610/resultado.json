@@ -1,0 +1,14 @@
+{
+  "arquivo": "pexels-anderson-martinsz-34634610.jpg",
+  "pasta": "sem_danos",
+  "largura": 4026,
+  "altura": 6039,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 0,
+  "buracos": 0,
+  "rachaduras": 0,
+  "inference_ms": 65.07,
+  "tempo_total_ms": 69.6,
+  "deteccoes": []
+}

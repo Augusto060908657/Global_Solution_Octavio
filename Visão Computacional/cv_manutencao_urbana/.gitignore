@@ -1,0 +1,4 @@
+data/raw/
+data/yolo/
+runs/
+__pycache__/

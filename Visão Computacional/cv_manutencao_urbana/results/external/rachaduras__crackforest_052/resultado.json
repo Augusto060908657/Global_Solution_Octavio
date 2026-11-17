@@ -1,0 +1,14 @@
+{
+  "arquivo": "crackforest_052.jpg",
+  "pasta": "rachaduras",
+  "largura": 480,
+  "altura": 320,
+  "conf_usada": 0.17500000000000004,
+  "imgsz": 640,
+  "quantidade_defeitos": 0,
+  "buracos": 0,
+  "rachaduras": 0,
+  "inference_ms": 7.2,
+  "tempo_total_ms": 9.2,
+  "deteccoes": []
+}
