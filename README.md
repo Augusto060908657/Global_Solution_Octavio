@@ -9,8 +9,7 @@
 
 ## 🔗 Entregáveis Principais (Governança em IA & Business Analytics)
 
-* **Vídeo de Demonstração (YouTube — Não Listado):** `[[Youtube Video Governança](https://youtu.be/KlJ37WnXEHs)]`
-* **Relatório Técnico Consolidado (ABNT/FIAP):** [`docs/Relatorio_Final_Governanca.pdf`](docs/Relatorio_Final_Governanca.pdf)
+* **Vídeo de Demonstração (YouTube — Não Listado):** (https://youtu.be/KlJ37WnXEHs)
 
 ---
 
