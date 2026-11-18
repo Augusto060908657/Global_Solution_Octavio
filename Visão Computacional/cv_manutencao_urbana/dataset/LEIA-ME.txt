@@ -1,2 +1,0 @@
-Coloque aqui o arquivo .zip do dataset (o t576ydh9v8-3.zip que veio no enunciado, ou o
-Cracks-and-Potholes-in-Road-Images.zip). O run.py descompacta sozinho em data/raw/.
